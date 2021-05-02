@@ -65,6 +65,23 @@ img.svg{
 	position: relative;
 	z-index: 0;
 }
+h3 span{
+	font-size: 20px;
+	color: #E3872D;
+}
+h5{ 
+	padding-bottom: 40px;
+	font-weight: 700;
+}
+a{
+	text-decoration: none !important;
+}
+.site{
+	padding: 20px;
+}
+.site a{
+	color: #E3872D;
+}
 .arlo_tm_content{
 	position: relative;
 	z-index: 2;
@@ -87,7 +104,10 @@ img.svg{
 ::-ms-input-placeholder { /* Microsoft Edge */
    color: #333;
 }
-
+.self{
+	color: #fff;
+	font-size: 50px;
+}
 ::placeholder { /* Most modern browsers support this now. */
    color: #333;
 }
@@ -1498,14 +1518,13 @@ img.svg{
 .arlo_tm_news_wrap .title_holder{margin-bottom: 18px;}
 .arlo_tm_news_wrap .title_holder h3{
 	color: #fff;
-	line-height: 1.4;
 	font-weight: 600;
 	font-family: "Montserrat";
 }
 .arlo_tm_news_wrap .title_holder h3 a{
 	text-decoration: none;
 	color: #041230;
-	font-size: 22px;
+	font-size: 20px;
 	display: block;
 	
 	-webkit-transition: all .3s ease;
