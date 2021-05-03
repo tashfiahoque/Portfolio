@@ -409,6 +409,14 @@ function arlo_tm_owl_carousel() {
 		nav: false,
 		items: 1,
 	});
+	var carusel3 = jQuery('.arlo_tm_slider_wrap .owl-carousel');
+	carusel3.owlCarousel({
+		loop: true,
+		autoplay: true,
+		autoWidth: false,
+		nav: false,
+		items: 1,
+	});
 }
 
 // -----------------------------------------------------
