@@ -405,6 +405,7 @@ function arlo_tm_owl_carousel() {
 	carusel2.owlCarousel({
 		loop: true,
 		autoplay: true,
+		autoplayTimeout: 2000,
 		autoWidth: false,
 		nav: false,
 		items: 1,
@@ -413,6 +414,7 @@ function arlo_tm_owl_carousel() {
 	carusel3.owlCarousel({
 		loop: true,
 		autoplay: true,
+		autoplayTimeout: 2000,
 		autoWidth: false,
 		nav: false,
 		items: 1,
