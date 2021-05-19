@@ -404,11 +404,19 @@ function arlo_tm_owl_carousel() {
 	var carusel2 = jQuery('.arlo_tm_testimonial_wrap .owl-carousel');
 	carusel2.owlCarousel({
 		loop: true,
-		autoplay: true,
-		autoplayTimeout: 2000,
+		autoplay: false,
 		autoWidth: false,
 		nav: false,
 		items: 1,
+		responsive: {
+			0: { items: 1 },
+			480: { items: 1 },
+			768: { items: 1 },
+			1040: { items: 1 },
+			1200: { items: 1 },
+			1600: { items: 1 },
+			1920: { items: 1 }
+		}
 	});
 	var carusel3 = jQuery('.arlo_tm_slider_wrap .owl-carousel');
 	carusel3.owlCarousel({
@@ -418,6 +426,15 @@ function arlo_tm_owl_carousel() {
 		autoWidth: false,
 		nav: false,
 		items: 1,
+		responsive: {
+			0: { items: 1 },
+			480: { items: 1 },
+			768: { items: 1 },
+			1040: { items: 1 },
+			1200: { items: 1 },
+			1600: { items: 1 },
+			1920: { items: 1 }
+		}
 	});
 }
 
