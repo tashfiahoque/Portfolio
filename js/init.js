@@ -421,6 +421,8 @@ function arlo_tm_owl_carousel() {
 	var carusel3 = jQuery('.arlo_tm_slider_wrap .owl-carousel');
 	carusel3.owlCarousel({
 		loop: true,
+		lazyLoad: true,
+		dots: true,
 		autoplay: true,
 		autoplayTimeout: 2000,
 		autoWidth: false,
